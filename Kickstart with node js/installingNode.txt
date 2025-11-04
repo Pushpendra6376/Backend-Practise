@@ -1,0 +1,4 @@
+installing node js into the laptop.
+
+to check the installed node js version go in the cmmand prompt and type nove -v or node --version
+node is used for server side programming and its core is Http
