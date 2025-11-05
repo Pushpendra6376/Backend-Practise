@@ -1,12 +1,12 @@
 {
   "dependencies": {
+    "fs": "^0.0.1-security",
     "http": "^0.0.1-security"
   },
   "name": "reading-writing",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
