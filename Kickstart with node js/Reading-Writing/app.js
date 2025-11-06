@@ -48,6 +48,17 @@ const server = http.createServer((req, res)=>{
                     res.end();
                 })
             })
+        } else{
+            if(req.url =='/read'){
+                // read from the file
+
+                fs.readFile('formValue.txt', (err, data)=>{
+                    
+
+                    console.log(data.toString());
+                    res.end(`<h1>${data.toString()}</h1>`);
+                })
+            }
         }
     }
 })
