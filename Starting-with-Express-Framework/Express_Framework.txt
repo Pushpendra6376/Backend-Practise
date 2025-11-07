@@ -1,0 +1,8 @@
+What is Express?    :- A Better way to manage Request.(its a frameworks that allows below several things.)
+        Express Adds:- Structure and efficiency for managing requests and responses.
+        Outcome:-      Fewer Mistakes, Faster Development.
+                -      Write less code for common Tasks.
+                -      Achieved same functionality with Simplified, organized code. 
+
+    Defination:-      A framework is like a toolbox filled with tools and guidelines.
+    Purpose:-         Helps developers build applications more easily and efficitenly.
