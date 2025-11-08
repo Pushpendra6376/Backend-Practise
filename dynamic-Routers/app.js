@@ -1,3 +1,6 @@
+// in dynamic route  we can avoid extra for large data set like if we have over 1000 of ids or roles then we unable to right that much
+// lengthy code as a middleware and it is difficult to maintian so we use dynamic routes in express.
+
 const express = require('express');
 
 const app = express();
