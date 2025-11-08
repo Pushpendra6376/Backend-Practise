@@ -1,0 +1,32 @@
+const express = require('express')
+
+const app = express();
+
+app.use((req,res,next)=>{
+    console.log("middleware 1 is called");
+    next();
+})
+
+//for orders
+app.get('/orders',(req,res)=>{
+    res.send("Here is the list of all orders.")
+
+})
+
+app.post('/orders',(req,res)=>{
+    res.send("A new order has been created.")
+})
+
+// for users
+app.get('/users',(req,res)=>{
+    res.send("Here is the list of all users.")
+})
+
+app.post('/users',(req,res)=>{
+    res.send("A new user has been added.")
+})
+
+
+app.listen(3000,()=>{
+    console.log("server is running");
+})
